@@ -1,0 +1,16 @@
+name: NetherBanish
+main: club.chimpout.netherbanish.Main
+version: 1.03
+api-version: 1.15
+commands:
+  netherbanish:
+    description: NetherBanish base command.
+    usage: "/nb reload"
+    permission: NetherBanish.command
+    aliases: nb
+permissions:
+  NetherBanish.command:
+    description: Can use /netherbanish commands.
+    default: op
+  NetherBanish.banished:
+    description: banished players recieve this.
